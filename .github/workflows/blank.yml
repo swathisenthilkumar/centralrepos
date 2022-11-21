@@ -46,7 +46,7 @@ jobs:
 
           echo "----------Authenticating Snyk-----------"
 
-          ./snyk auth ${{secrets.Snyk_token}}
+          ./snyk auth ${{secrets.Snyk_Token}}
 
          echo "----------Snyk Scanning-----------" 
 
